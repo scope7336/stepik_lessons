@@ -1,0 +1,66 @@
+# euclidean distance
+"""from math import *
+x_1 = float(input())
+y_1 = float(input())
+x_2 = float(input())
+y_2 = float(input())
+p = sqrt(((x_1 - x_2) ** 2) + (y_1 - y_2) ** 2)
+print(p)"""
+
+
+# area and length
+"""r = float(input())
+from math import pi
+print(pi * r ** 2)
+print(2 * pi * r)"""
+
+
+# average values
+"""a = float(input())
+b = float(input())
+from math import sqrt, pow
+average = (a + b) / 2
+geometric_mean = sqrt(a * b)
+harmonic_mean = (2 * (a * b)) / (a + b)
+root_mean_square = sqrt((pow(a, 2) + pow(b, 2)) / 2)
+print(average, geometric_mean, harmonic_mean, root_mean_square, sep="\n")"""
+
+
+# trigonometric expression
+"""x = float(input())
+from math import *
+r = radians(x)
+math = sin(r) + cos(r) + (tan(r) ** 2)
+print(math)"""
+
+
+# floor and ceiling
+"""x = float(input())
+from math import floor, ceil
+print(ceil(x) + floor(x))"""
+
+
+# quadratic equatoin
+"""from math import *
+a = float(input())
+b = float(input())
+c = float(input())
+D = (b ** 2 - 4 * a * c)
+x = (-b / (2 * a))
+x_1 = (-b - D ** 0.5) / (2 * a)
+x_2 = (-b + D ** 0.5) / (2 * a)
+if D < 0:
+    print("Нет корней")
+elif D == 0:
+    print(x)
+elif D > 0:
+    print(min(x_1, x_2))
+    print(max(x_1, x_2))"""
+
+
+# regular polygon
+"""n = int(input())
+a = float(input())
+from math import tan, pi
+s = (n * pow(a, 2)) / (4 * tan(pi / n))
+print(s)"""
